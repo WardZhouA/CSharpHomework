@@ -1,0 +1,20 @@
+﻿<Window x:Class="Wpf_CountString.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_CountString"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="295" Width="312.5">
+    <Grid>
+        <TextBox x:Name="Tex_main" HorizontalAlignment="Left" Height="23" Margin="80,20,0,0" TextWrapping="Wrap" Text="Please Enter A String" VerticalAlignment="Top" Width="205"/>
+        <TextBox x:Name="Tex_let" HorizontalAlignment="Left" Height="23" Margin="80,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Tex_oth" HorizontalAlignment="Left" Height="23" Margin="80,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Tex_num" HorizontalAlignment="Left" Height="23" Margin="80,129,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Letter" HorizontalAlignment="Left" Margin="20,75,0,0" VerticalAlignment="Top"/>
+        <Label Content="Number" HorizontalAlignment="Left" Margin="20,125,0,0" VerticalAlignment="Top"/>
+        <Label Content="Other" HorizontalAlignment="Left" Margin="20,175,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="Action" Content="Count" HorizontalAlignment="Left" Margin="210,230,0,0" VerticalAlignment="Top" Width="75" Click="Action_Click"/>
+
+    </Grid>
+</Window>
